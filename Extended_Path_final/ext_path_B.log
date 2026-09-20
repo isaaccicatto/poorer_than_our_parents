@@ -1,0 +1,518 @@
+Starting Dynare (version 7.0).
+Calling Dynare with arguments: none
+Starting preprocessing of the model file ...
+WARNING: The following parameter(s) are used with a lead or a lag in the model block: nu omega
+Substitution of exo leads: added 1 auxiliary variables and equations.
+Found 47 equation(s).
+Evaluating expressions...
+Computing static model derivatives (order 1).
+Normalizing the static model...
+Finding the optimal block decomposition of the static model...
+8 block(s) found:
+  5 recursive block(s) and 3 simultaneous block(s).
+  the largest simultaneous block has 27 equation(s)
+                                 and 27 feedback variable(s).
+Computing dynamic model derivatives (order 1).
+Normalizing the dynamic model...
+Finding the optimal block decomposition of the dynamic model...
+7 block(s) found:
+  4 recursive block(s) and 3 simultaneous block(s).
+  the largest simultaneous block has 27 equation(s)
+                                 and 23 feedback variable(s).
+Preprocessing completed.
+Preprocessing time: 0h00m00s.
+
+STEADY-STATE RESULTS:
+
+n_B             		 0.00539697
+psi_o_B         		 0.279119
+psi_y_B         		 0.151985
+n_y_B           		 0.00539697
+n_m_B           		 0.00539697
+n_o_B           		 0.00539697
+mu_o_B          		 0.0897979
+mu_m_B          		 0.0437673
+mu_y_B          		 0.0378764
+s_o_B           		 0.711135
+s_m_B           		 1.90972
+s_y_B           		 0.256843
+h_m_B           		 2.80876
+h_y_B           		 0.377758
+a_B             		 4.11857
+a_o_B           		 1.30337
+a_m_B           		 2.92992
+a_y_B           		 -0.114725
+z_o_B           		 2.12494
+z_m_B           		 7.62873
+z_y_B           		 0.540342
+c_o_B           		 0.190815
+c_m_B           		 0.333889
+c_y_B           		 0.0204662
+y_B             		 1.07465
+k_B             		 2.60201
+w_B             		 0.720014
+inv_B           		 0.28436
+b_B             		 0.644789
+gov_B           		 0.268662
+e_B             		 0.0803877
+t_B             		 0.366464
+f_B             		 0.871769
+nx_B            		 -0.0235443
+tilde_R_B       		 1.03771
+g_B             		 1.01042
+q_B             		 1.02701
+tilde_s_m_B     		 0.698762
+tilde_s_y_B     		 0.106201
+tilde_s_o_B     		 0.195037
+Omega_m_B       		 1.08024
+Omega_y_B       		 1.06705
+eta_o_B         		 0.316463
+eta_m_B         		 0.711393
+eta_y_B         		 -0.0278555
+walras_B        		 2.60209e-16
+
+EIGENVALUES:
+         Modulus             Real        Imaginary
+       2.741e-17        2.741e-17                0
+       8.223e-17       -8.223e-17                0
+       2.283e-16       -2.283e-16                0
+       2.412e-16        2.412e-16                0
+         0.08355         -0.08355                0
+          0.7655           0.7655                0
+          0.7655           0.7655                0
+          0.7905           0.7905                0
+          0.9109           0.9109                0
+          0.9109           0.9109                0
+          0.9189           0.9189          0.01024
+          0.9189           0.9189         -0.01024
+          0.9946           0.9946                0
+           1.071            1.071                0
+           1.143            1.143                0
+           1.144            1.144                0
+           1.168            1.167          0.03968
+           1.168            1.167         -0.03968
+           1.377            1.377                0
+           1.377            1.377                0
+           1.385            1.385                0
+        3.42e+15       -2.421e+14        3.411e+15
+        3.42e+15       -2.421e+14       -3.411e+15
+       5.139e+15       -1.651e+14        5.137e+15
+       5.139e+15       -1.651e+14       -5.137e+15
+       1.118e+16        1.118e+16                0
+       4.109e+16       -4.109e+16                0
+       8.273e+16        3.843e+16        7.326e+16
+       8.273e+16        3.843e+16       -7.326e+16
+             Inf             -Inf                0
+
+There are 17 eigenvalue(s) larger than 1 in modulus for 17 forward-looking variable(s).
+The order and rank conditions are verified.
+
+>>> STARTING ROLLING MIT SHOCKS LOOP... <<<
+
+Year 1 of 200 (calendar 1971) solved under constant beliefs.
+
+Year 2 of 200 (calendar 1972) solved under constant beliefs.
+
+Year 3 of 200 (calendar 1973) solved under constant beliefs.
+
+Year 4 of 200 (calendar 1974) solved under constant beliefs.
+
+Year 5 of 200 (calendar 1975) solved under constant beliefs.
+
+Year 6 of 200 (calendar 1976) solved under constant beliefs.
+
+Year 7 of 200 (calendar 1977) solved under constant beliefs.
+
+Year 8 of 200 (calendar 1978) solved under constant beliefs.
+
+Year 9 of 200 (calendar 1979) solved under constant beliefs.
+
+Year 10 of 200 (calendar 1980) solved under constant beliefs.
+
+Year 11 of 200 (calendar 1981) solved under constant beliefs.
+
+Year 12 of 200 (calendar 1982) solved under constant beliefs.
+
+Year 13 of 200 (calendar 1983) solved under constant beliefs.
+
+Year 14 of 200 (calendar 1984) solved under constant beliefs.
+
+Year 15 of 200 (calendar 1985) solved under constant beliefs.
+
+Year 16 of 200 (calendar 1986) solved under constant beliefs.
+
+Year 17 of 200 (calendar 1987) solved under constant beliefs.
+
+Year 18 of 200 (calendar 1988) solved under constant beliefs.
+
+Year 19 of 200 (calendar 1989) solved under constant beliefs.
+
+Year 20 of 200 (calendar 1990) solved under constant beliefs.
+
+Year 21 of 200 (calendar 1991) solved under constant beliefs.
+
+Year 22 of 200 (calendar 1992) solved under constant beliefs.
+
+Year 23 of 200 (calendar 1993) solved under constant beliefs.
+
+Year 24 of 200 (calendar 1994) solved under constant beliefs.
+
+Year 25 of 200 (calendar 1995) solved under constant beliefs.
+
+Year 26 of 200 (calendar 1996) solved under constant beliefs.
+
+Year 27 of 200 (calendar 1997) solved under constant beliefs.
+
+Year 28 of 200 (calendar 1998) solved under constant beliefs.
+
+Year 29 of 200 (calendar 1999) solved under constant beliefs.
+
+Year 30 of 200 (calendar 2000) solved under constant beliefs.
+
+Year 31 of 200 (calendar 2001) solved under constant beliefs.
+
+Year 32 of 200 (calendar 2002) solved under constant beliefs.
+
+Year 33 of 200 (calendar 2003) solved under constant beliefs.
+
+Year 34 of 200 (calendar 2004) solved under constant beliefs.
+
+Year 35 of 200 (calendar 2005) solved under constant beliefs.
+
+Year 36 of 200 (calendar 2006) solved under constant beliefs.
+
+Year 37 of 200 (calendar 2007) solved under constant beliefs.
+
+Year 38 of 200 (calendar 2008) solved under constant beliefs.
+
+Year 39 of 200 (calendar 2009) solved under constant beliefs.
+
+Year 40 of 200 (calendar 2010) solved under constant beliefs.
+
+Year 41 of 200 (calendar 2011) solved under constant beliefs.
+
+Year 42 of 200 (calendar 2012) solved under constant beliefs.
+
+Year 43 of 200 (calendar 2013) solved under constant beliefs.
+
+Year 44 of 200 (calendar 2014) solved under constant beliefs.
+
+Year 45 of 200 (calendar 2015) solved under constant beliefs.
+
+Year 46 of 200 (calendar 2016) solved under constant beliefs.
+
+Year 47 of 200 (calendar 2017) solved under constant beliefs.
+
+Year 48 of 200 (calendar 2018) solved under constant beliefs.
+
+Year 49 of 200 (calendar 2019) solved under constant beliefs.
+
+Year 50 of 200 (calendar 2020) solved under constant beliefs.
+
+Year 51 of 200 (calendar 2021) solved under constant beliefs.
+
+Year 52 of 200 (calendar 2022) solved under constant beliefs.
+
+Year 53 of 200 (calendar 2023) solved under constant beliefs.
+
+Year 54 of 200 (calendar 2024) solved under constant beliefs.
+
+Year 55 of 200 (calendar 2025) solved under constant beliefs.
+
+Year 56 of 200 (calendar 2026) solved under constant beliefs.
+
+Year 57 of 200 (calendar 2027) solved under constant beliefs.
+
+Year 58 of 200 (calendar 2028) solved under constant beliefs.
+
+Year 59 of 200 (calendar 2029) solved under constant beliefs.
+
+Year 60 of 200 (calendar 2030) solved under constant beliefs.
+
+Year 61 of 200 (calendar 2031) solved under constant beliefs.
+
+Year 62 of 200 (calendar 2032) solved under constant beliefs.
+
+Year 63 of 200 (calendar 2033) solved under constant beliefs.
+
+Year 64 of 200 (calendar 2034) solved under constant beliefs.
+
+Year 65 of 200 (calendar 2035) solved under constant beliefs.
+
+Year 66 of 200 (calendar 2036) solved under constant beliefs.
+
+Year 67 of 200 (calendar 2037) solved under constant beliefs.
+
+Year 68 of 200 (calendar 2038) solved under constant beliefs.
+
+Year 69 of 200 (calendar 2039) solved under constant beliefs.
+
+Year 70 of 200 (calendar 2040) solved under constant beliefs.
+
+Year 71 of 200 (calendar 2041) solved under constant beliefs.
+
+Year 72 of 200 (calendar 2042) solved under constant beliefs.
+
+Year 73 of 200 (calendar 2043) solved under constant beliefs.
+
+Year 74 of 200 (calendar 2044) solved under constant beliefs.
+
+Year 75 of 200 (calendar 2045) solved under constant beliefs.
+
+Year 76 of 200 (calendar 2046) solved under constant beliefs.
+
+Year 77 of 200 (calendar 2047) solved under constant beliefs.
+
+Year 78 of 200 (calendar 2048) solved under constant beliefs.
+
+Year 79 of 200 (calendar 2049) solved under constant beliefs.
+
+Year 80 of 200 (calendar 2050) solved under constant beliefs.
+
+Year 81 of 200 (calendar 2051) solved under constant beliefs.
+
+Year 82 of 200 (calendar 2052) solved under constant beliefs.
+
+Year 83 of 200 (calendar 2053) solved under constant beliefs.
+
+Year 84 of 200 (calendar 2054) solved under constant beliefs.
+
+Year 85 of 200 (calendar 2055) solved under constant beliefs.
+
+Year 86 of 200 (calendar 2056) solved under constant beliefs.
+
+Year 87 of 200 (calendar 2057) solved under constant beliefs.
+
+Year 88 of 200 (calendar 2058) solved under constant beliefs.
+
+Year 89 of 200 (calendar 2059) solved under constant beliefs.
+
+Year 90 of 200 (calendar 2060) solved under constant beliefs.
+
+Year 91 of 200 (calendar 2061) solved under constant beliefs.
+
+Year 92 of 200 (calendar 2062) solved under constant beliefs.
+
+Year 93 of 200 (calendar 2063) solved under constant beliefs.
+
+Year 94 of 200 (calendar 2064) solved under constant beliefs.
+
+Year 95 of 200 (calendar 2065) solved under constant beliefs.
+
+Year 96 of 200 (calendar 2066) solved under constant beliefs.
+
+Year 97 of 200 (calendar 2067) solved under constant beliefs.
+
+Year 98 of 200 (calendar 2068) solved under constant beliefs.
+
+Year 99 of 200 (calendar 2069) solved under constant beliefs.
+
+Year 100 of 200 (calendar 2070) solved under constant beliefs.
+
+Year 101 of 200 (calendar 2071) solved under constant beliefs.
+
+Year 102 of 200 (calendar 2072) solved under constant beliefs.
+
+Year 103 of 200 (calendar 2073) solved under constant beliefs.
+
+Year 104 of 200 (calendar 2074) solved under constant beliefs.
+
+Year 105 of 200 (calendar 2075) solved under constant beliefs.
+
+Year 106 of 200 (calendar 2076) solved under constant beliefs.
+
+Year 107 of 200 (calendar 2077) solved under constant beliefs.
+
+Year 108 of 200 (calendar 2078) solved under constant beliefs.
+
+Year 109 of 200 (calendar 2079) solved under constant beliefs.
+
+Year 110 of 200 (calendar 2080) solved under constant beliefs.
+
+Year 111 of 200 (calendar 2081) solved under constant beliefs.
+
+Year 112 of 200 (calendar 2082) solved under constant beliefs.
+
+Year 113 of 200 (calendar 2083) solved under constant beliefs.
+
+Year 114 of 200 (calendar 2084) solved under constant beliefs.
+
+Year 115 of 200 (calendar 2085) solved under constant beliefs.
+
+Year 116 of 200 (calendar 2086) solved under constant beliefs.
+
+Year 117 of 200 (calendar 2087) solved under constant beliefs.
+
+Year 118 of 200 (calendar 2088) solved under constant beliefs.
+
+Year 119 of 200 (calendar 2089) solved under constant beliefs.
+
+Year 120 of 200 (calendar 2090) solved under constant beliefs.
+
+Year 121 of 200 (calendar 2091) solved under constant beliefs.
+
+Year 122 of 200 (calendar 2092) solved under constant beliefs.
+
+Year 123 of 200 (calendar 2093) solved under constant beliefs.
+
+Year 124 of 200 (calendar 2094) solved under constant beliefs.
+
+Year 125 of 200 (calendar 2095) solved under constant beliefs.
+
+Year 126 of 200 (calendar 2096) solved under constant beliefs.
+
+Year 127 of 200 (calendar 2097) solved under constant beliefs.
+
+Year 128 of 200 (calendar 2098) solved under constant beliefs.
+
+Year 129 of 200 (calendar 2099) solved under constant beliefs.
+
+Year 130 of 200 (calendar 2100) solved under constant beliefs.
+
+Year 131 of 200 (calendar 2101) solved under constant beliefs.
+
+Year 132 of 200 (calendar 2102) solved under constant beliefs.
+
+Year 133 of 200 (calendar 2103) solved under constant beliefs.
+
+Year 134 of 200 (calendar 2104) solved under constant beliefs.
+
+Year 135 of 200 (calendar 2105) solved under constant beliefs.
+
+Year 136 of 200 (calendar 2106) solved under constant beliefs.
+
+Year 137 of 200 (calendar 2107) solved under constant beliefs.
+
+Year 138 of 200 (calendar 2108) solved under constant beliefs.
+
+Year 139 of 200 (calendar 2109) solved under constant beliefs.
+
+Year 140 of 200 (calendar 2110) solved under constant beliefs.
+
+Year 141 of 200 (calendar 2111) solved under constant beliefs.
+
+Year 142 of 200 (calendar 2112) solved under constant beliefs.
+
+Year 143 of 200 (calendar 2113) solved under constant beliefs.
+
+Year 144 of 200 (calendar 2114) solved under constant beliefs.
+
+Year 145 of 200 (calendar 2115) solved under constant beliefs.
+
+Year 146 of 200 (calendar 2116) solved under constant beliefs.
+
+Year 147 of 200 (calendar 2117) solved under constant beliefs.
+
+Year 148 of 200 (calendar 2118) solved under constant beliefs.
+
+Year 149 of 200 (calendar 2119) solved under constant beliefs.
+
+Year 150 of 200 (calendar 2120) solved under constant beliefs.
+
+Year 151 of 200 (calendar 2121) solved under constant beliefs.
+
+Year 152 of 200 (calendar 2122) solved under constant beliefs.
+
+Year 153 of 200 (calendar 2123) solved under constant beliefs.
+
+Year 154 of 200 (calendar 2124) solved under constant beliefs.
+
+Year 155 of 200 (calendar 2125) solved under constant beliefs.
+
+Year 156 of 200 (calendar 2126) solved under constant beliefs.
+
+Year 157 of 200 (calendar 2127) solved under constant beliefs.
+
+Year 158 of 200 (calendar 2128) solved under constant beliefs.
+
+Year 159 of 200 (calendar 2129) solved under constant beliefs.
+
+Year 160 of 200 (calendar 2130) solved under constant beliefs.
+
+Year 161 of 200 (calendar 2131) solved under constant beliefs.
+
+Year 162 of 200 (calendar 2132) solved under constant beliefs.
+
+Year 163 of 200 (calendar 2133) solved under constant beliefs.
+
+Year 164 of 200 (calendar 2134) solved under constant beliefs.
+
+Year 165 of 200 (calendar 2135) solved under constant beliefs.
+
+Year 166 of 200 (calendar 2136) solved under constant beliefs.
+
+Year 167 of 200 (calendar 2137) solved under constant beliefs.
+
+Year 168 of 200 (calendar 2138) solved under constant beliefs.
+
+Year 169 of 200 (calendar 2139) solved under constant beliefs.
+
+Year 170 of 200 (calendar 2140) solved under constant beliefs.
+
+Year 171 of 200 (calendar 2141) solved under constant beliefs.
+
+Year 172 of 200 (calendar 2142) solved under constant beliefs.
+
+Year 173 of 200 (calendar 2143) solved under constant beliefs.
+
+Year 174 of 200 (calendar 2144) solved under constant beliefs.
+
+Year 175 of 200 (calendar 2145) solved under constant beliefs.
+
+Year 176 of 200 (calendar 2146) solved under constant beliefs.
+
+Year 177 of 200 (calendar 2147) solved under constant beliefs.
+
+Year 178 of 200 (calendar 2148) solved under constant beliefs.
+
+Year 179 of 200 (calendar 2149) solved under constant beliefs.
+
+Year 180 of 200 (calendar 2150) solved under constant beliefs.
+
+Year 181 of 200 (calendar 2151) solved under constant beliefs.
+
+Year 182 of 200 (calendar 2152) solved under constant beliefs.
+
+Year 183 of 200 (calendar 2153) solved under constant beliefs.
+
+Year 184 of 200 (calendar 2154) solved under constant beliefs.
+
+Year 185 of 200 (calendar 2155) solved under constant beliefs.
+
+Year 186 of 200 (calendar 2156) solved under constant beliefs.
+
+Year 187 of 200 (calendar 2157) solved under constant beliefs.
+
+Year 188 of 200 (calendar 2158) solved under constant beliefs.
+
+Year 189 of 200 (calendar 2159) solved under constant beliefs.
+
+Year 190 of 200 (calendar 2160) solved under constant beliefs.
+
+Year 191 of 200 (calendar 2161) solved under constant beliefs.
+
+Year 192 of 200 (calendar 2162) solved under constant beliefs.
+
+Year 193 of 200 (calendar 2163) solved under constant beliefs.
+
+Year 194 of 200 (calendar 2164) solved under constant beliefs.
+
+Year 195 of 200 (calendar 2165) solved under constant beliefs.
+
+Year 196 of 200 (calendar 2166) solved under constant beliefs.
+
+Year 197 of 200 (calendar 2167) solved under constant beliefs.
+
+Year 198 of 200 (calendar 2168) solved under constant beliefs.
+
+Year 199 of 200 (calendar 2169) solved under constant beliefs.
+
+Year 200 of 200 (calendar 2170) solved under constant beliefs.
+>>> THE LOOP IS FINISHED! <<<
+R_tilde_B_end - R_star_end = -2.10e-04
+[Warning: Exported image displays axes toolbar. To remove axes toolbar from image, export again.] 
+>>> EXPORTING FULL DUMP... <<<
+CSV: 201 rows x 71 columns
+Total computing time : 0h00m20s
+Note: 1 warning(s) encountered in the preprocessor
+Note: warning(s) encountered in MATLAB/Octave code
